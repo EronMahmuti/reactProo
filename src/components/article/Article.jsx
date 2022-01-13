@@ -1,9 +1,11 @@
 import React from 'react';
 import './article.css';
+import NewRouter from './NewRouter';
+import { Route, Routes } from 'react-router-dom'
 
 export const Article = ({ imageUrl, date, title }) => {
     const handleClick = () => {
-        console.log(title);
+        
     }
 
     return (
@@ -15,7 +17,11 @@ export const Article = ({ imageUrl, date, title }) => {
             <div className="gpt3__blog-container_article-content" >
                 <p>{date}</p>
                 <h3>{title}</h3>
-                <button className='eronButton' onClick={handleClick} >Continue Reading</button>
+               <Routes>
+                   <Route path="/contact" >
+                        <NewRouter />
+                   </Route>
+               </Routes>
             </div>
         </div>
     )
