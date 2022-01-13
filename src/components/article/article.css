@@ -1,0 +1,110 @@
+.gpt3__blog-container_article{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-footer);
+}
+
+.gpt3__blog-container_article-image{
+    width:100%;
+    height:100%;
+    background: var(--color-footer);
+}
+
+.gpt3__blog-container_article-image img{
+    width:100%;
+    height:100%;
+}
+
+
+.gpt3__blog-container_article-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    height:100%;
+}
+
+.gpt3__blog-container_article-content p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    height:100%;
+}
+
+
+.gpt3__blog-container_article-content h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    height:100%;
+}
+
+
+.gpt3__blog-container_article-content p:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    height:100%;
+}
+
+
+.gpt3__blog-container_article-content p {
+    font-family: var(--font-family);
+    font-size: 11.65px;
+    font-weight: 700;
+    line-height: 35px;
+
+    color: #fff;
+}
+
+.gpt3__blog-container_article-content h3 {
+    font-family: var(--font-family);
+    font-size: 25.11px;
+    font-weight: 800;
+    line-height: 30.30px;
+    
+    color: #fff;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+
+.gpt3__blog-container_article-content p:last-child {
+    cursor: pointer;
+}
+
+.eronButton{
+    flex:0.6;
+     width: 100%;
+     min-height: 50px;
+     background: #c2cbd4;
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+     transform: matrix(1, 0, 0, 1, 0, 0);
+     font-family: Manrope;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 18px;
+     line-height: 27px;
+     padding: 0 1rem;
+     outline: none;
+     cursor: pointer;
+     border: none;
+    color:#212224;
+}
+
+
+@media screen and (max-width: 550px) {
+    .gpt3__blog-container_article-content h3 {
+        font-size: 18px;
+        line-height: 25p;
+    }
+}
+
+
+
+
