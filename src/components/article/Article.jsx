@@ -17,11 +17,6 @@ export const Article = ({ imageUrl, date, title }) => {
             <div className="gpt3__blog-container_article-content" >
                 <p>{date}</p>
                 <h3>{title}</h3>
-               <Routes>
-                   <Route path="/contact" >
-                        <NewRouter />
-                   </Route>
-               </Routes>
             </div>
         </div>
     )

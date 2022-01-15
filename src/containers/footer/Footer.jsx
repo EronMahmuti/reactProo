@@ -32,13 +32,7 @@ export const Footer = () => {
                     <p>L</p>
                     <p>L</p>
                 </div>  
-                <div className="gpt3__footer-links_div">
-                    <h4>Links</h4>
-                    <p>L</p>
-                    <p>L</p>
-                    <p>L</p>
-                    <p>L</p>
-                </div>       
+                  
             </div>
         </div>
     )

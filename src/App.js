@@ -8,7 +8,6 @@ import './app.css'
 
 const App = () => {
     return (
-        <Router>
         <div>
             <div className="gradient__bg">
                 <Navbar />
@@ -24,7 +23,6 @@ const App = () => {
             <Footer />
            
         </div>
-        </Router>
     )
 }
 
