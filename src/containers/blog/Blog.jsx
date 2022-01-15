@@ -12,7 +12,7 @@ export const Blog = () => {
            </div>
            <div className="gpt3__blog-container" >
                 <div className="gpt3__blog-container_groupA" >
-                    <Article imageUrl={blog01} date="Sep 26, 2021" title="titles of posts" />
+                    <Article imageUrl={blog01} date="Sep 26, 2021" title="titles of posts"  />
                     <a href="https://www.google.com">SSS</a>
                 </div>
 
