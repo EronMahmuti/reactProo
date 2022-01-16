@@ -1,6 +1,6 @@
 import React from 'react';
 import './brand.css';
-import {zimi, ndero ,google,slack,atlassian, dropbox, shopify} from "./imports";
+import {zimi, ndero ,lobi , eki,slack,atlassian, dropbox, shopify} from "./imports";
 
 export const Brand = () => {
     return (
@@ -13,10 +13,10 @@ export const Brand = () => {
             </div>
            
             <div className="gpt3__brand-imgs" >
-                <img src={dropbox} alt="dropbox" />
+                <img src={lobi} alt="dropbox" />
             </div>
             <div className="gpt3__brand-imgs" >
-                <img src={shopify} alt="shopify" />
+                <img src={eki} alt="shopify" />
             </div>
         </div>
     )
