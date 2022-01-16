@@ -1,22 +1,22 @@
 import React from 'react';
 import './brand.css';
-import {zimi, ndero ,lobi , eki,slack,atlassian, dropbox, shopify} from "./imports";
+import {zimi, ndero ,lobi , eki} from "./imports";
 
 export const Brand = () => {
     return (
         <div className="gpt3_brand section__padding" >
             <div className="gpt3__brand-imgs" >
-                <img src={zimi} alt="google" />                
+                <img src={zimi} alt="mizzi" />                
             </div>
             <div className="gpt3__brand-imgs" >
-                <img src={ndero} alt="slack" />
+                <img src={ndero} alt="ndero" />
             </div>
            
             <div className="gpt3__brand-imgs" >
-                <img src={lobi} alt="dropbox" />
+                <img src={lobi} alt="lobi" />
             </div>
             <div className="gpt3__brand-imgs" >
-                <img src={eki} alt="shopify" />
+                <img src={eki} alt="eki" />
             </div>
         </div>
     )
