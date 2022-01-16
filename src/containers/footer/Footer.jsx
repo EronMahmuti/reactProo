@@ -6,34 +6,14 @@ export const Footer = () => {
     return (
         <div className="gpt3__footer section__padding" >
             <div className="gpt3__footer-heading">
-                <h1 className="gradient__text " >Do you want ?</h1>
+                <h1 className="gradient__text " >Let's connect</h1>
             </div>
 
             <div className="gpt3__footer-btn">
-                <p>Do you want ?</p>
+                <p>I'm active on multiple Social Media platforms. Reach out - let's follow each other and connect.</p>
             </div>
 
-            <div className="gpt3__footer-links">
-                <div className="gpt3__footer-links_logo">
-                    <img src={gpt3Logo} alt="logo" />
-                    <p>Do you want ?</p>
-                </div>        
-                <div className="gpt3__footer-links_div">
-                    <h4>Links</h4>
-                    <p>L</p>
-                    <p>L</p>
-                    <p>L</p>
-                    <p>L</p>
-                </div>  
-                <div className="gpt3__footer-links_div">
-                    <h4>Links</h4>
-                    <p>L</p>
-                    <p>L</p>
-                    <p>L</p>
-                    <p>L</p>
-                </div>  
-                  
-            </div>
+
         </div>
     )
 }

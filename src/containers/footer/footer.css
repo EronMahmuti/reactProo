@@ -45,12 +45,11 @@
 .gpt3__footer-links {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .gpt3__footer-links div {

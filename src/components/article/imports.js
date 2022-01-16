@@ -1,11 +1,9 @@
-import blog01 from "../../assets/blog01.png"
-import blog02 from "../../assets/blog02.png"
-import blog03 from "../../assets/blog03.png"
-import blog04 from "../../assets/blog04.png"
-import blog05 from "../../assets/blog05.png"
+import blog02 from "../../assets/eron2.jpg"
+import blog03 from "../../assets/eron3.jpg"
+import blog04 from "../../assets/eron1.jpg"
+import blog05 from "../../assets/tools1.png"
 
 export{
-    blog01,
     blog02,
     blog03,
     blog04,
