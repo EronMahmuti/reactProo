@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.gpt3__navbar-links:hover{
+    color: gold;
+}
+
 .gpt3__navbar-links_logo{
     margin-right: 2rem;
 }
@@ -27,6 +31,9 @@ h3 {
     font-size: 1.5rem;
     cursor: pointer;
     font-family: 'Manrope';
+}
+h3:hover{
+    color: gold;
 }
 .gpt3__navbar-links_container{
     display: flex;
@@ -48,6 +55,9 @@ h3 {
     margin:0 1rem;
     cursor: pointer;
     font-family: 'Manrope';
+}
+.gpt3__navbar-links_container p:hover{
+    color: var(--color-text);
 }
 
 

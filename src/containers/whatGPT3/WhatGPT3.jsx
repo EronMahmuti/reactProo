@@ -4,7 +4,7 @@ import './whatGPT3.css'
 
 export const WhatGPT3 = () => {
     return (
-        <div className="gpt3__whatgpt3 section__margin" id="wgpt3" >
+        <div className="gpt3__whatgpt3 section__margin" id="about" >
             <div className="gpt3__whatgpt3-heading" >
                 <h1 className="gradient__text"> My name is Eron Mahmuti </h1>
             </div>

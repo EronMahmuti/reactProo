@@ -6,9 +6,9 @@ import './navbar.css'
 const Menu = () => (
     <>
         <p> <a href="#home">Home </a> </p>
-        <p> <a href="#wgpt3">Work </a> </p>
-        <p> <a href="#features">Contact </a> </p>
-        <p> <a href="#blog">Blog </a> </p>
+        <p> <a href="#about">About </a> </p>
+        <p> <a href="#contact">Contact </a> </p>
+        <p> <a href="#Posts">Posts </a> </p>
     </>
 )
 

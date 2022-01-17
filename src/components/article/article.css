@@ -99,7 +99,7 @@
      text-align: center;
      align-items: center;
      background: transparent;
-     border: solid 2px forestgreen;
+     border: solid 2px #f4f4f4;
 }
 
 .btn:hover{

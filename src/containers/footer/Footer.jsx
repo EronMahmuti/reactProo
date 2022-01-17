@@ -5,7 +5,7 @@ import { faLinkedin , faFacebookSquare , faTwitterSquare , faGithubSquare } from
 
 export const Footer = () => {
     return (
-        <div className="gpt3__footer section__padding" >
+        <div className="gpt3__footer section__padding" id="contact" >
             <div className="gpt3__footer-heading">
                 <h1 className="gradient__text " >Let's connect</h1>
             </div>
