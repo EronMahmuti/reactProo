@@ -3,14 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     background: var(--color-footer);
 }
 
 .gpt3__footer-heading {
     width: 100%;
     text-align: center;
-
     margin-bottom: 3rem;
 }
 
@@ -25,13 +23,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     padding: 1rem;
     border: 1px solid #fff;
     text-align: center;
-
-    margin-bottom: 10rem;
+    margin-bottom: 1.5rem;
     cursor: pointer;
+}
+
+.gpt3__footer-social{
+    display: flex;   
+    flex: row;
+}
+
+.social{
+    font-size: 5rem;
+    margin: 1rem;
+    transition-duration: 0.7s;
+}
+
+.twitter{
+    color: #65A2D9;
+}
+.linkedin{
+    color: #0274B3;
+}
+.facebook{
+    color: #1977F3;
+}
+.instagram{
+    color: #AFB5BB;
+}
+
+.social:hover{
+    font-size: 5rem;
+    transform: translateY(-15px);
+    color: var(--color-subtext);
 }
 
 .gpt3__footer-btn p {
