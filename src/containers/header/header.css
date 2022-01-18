@@ -135,7 +135,7 @@
         padding: 2rem 2rem;
     }
     .gpt3__header-content{
-        margin: 0.5rem 2rem 0.5rem 0rem;
+        margin: 0rem 2rem 0.5rem 0rem;
     }
 }
 @media screen and (max-width: 650px){
