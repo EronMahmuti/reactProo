@@ -1,5 +1,6 @@
 .gpt3__header{
     display: flex;
+    padding:2rem 6rem;
 }
 
 .gpt3__header-content{
@@ -132,13 +133,16 @@
 @media screen and (max-width: 1050px){
     .gpt3__header{
         flex-direction: column;
-        padding: 2rem 2rem;
+        padding: .0rem 2rem;
     }
     .gpt3__header-content{
         margin: 0rem 2rem 0.5rem 0rem;
     }
 }
 @media screen and (max-width: 650px){
+    .gpt3__header-content__people{
+        display: none;
+    }
     .gpt3__header h1{
         font-size: 48px;
         line-height: 60px;
@@ -160,11 +164,11 @@
 
 @media screen and (max-width: 490px){
     .gpt3__header h1{
-        font-size: 16px;
+        font-size: 19px;
         line-height: 48px;
     }
     .gpt3__header p{
-        font-size: 14px;
+        font-size: 15px;
         line-height: 24px;
     }
 

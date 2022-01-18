@@ -6,7 +6,7 @@ import ai from '../../assets/EM-header.png';
 export const Header = () => {
     
     return (
-        <div className="gpt3__header section__padding" id="home" > 
+        <div className="gpt3__header" id="home" > 
              <div className="gpt3__header-content">
                 <h1 className="gradient__text"> Let me handle the website, while you do what you do the best </h1>
                 <p>  Let's work together  </p>
