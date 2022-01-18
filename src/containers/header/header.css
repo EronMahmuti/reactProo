@@ -132,10 +132,10 @@
 @media screen and (max-width: 1050px){
     .gpt3__header{
         flex-direction: column;
-
+        padding: 2rem 2rem;
     }
     .gpt3__header-content{
-        margin: 2rem 2rem 0.5rem 0rem;
+        margin: 0.5rem 2rem 0.5rem 0rem;
     }
 }
 @media screen and (max-width: 650px){
@@ -173,7 +173,6 @@
         font-size: 12px;
         line-height: 16px;
     }
-
 }
 
 
