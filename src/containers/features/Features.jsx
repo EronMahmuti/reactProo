@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Aos from 'aos'
 import { Feature } from '../../components'
 
 import './features.css'
@@ -23,13 +24,16 @@ const featuresData = [
 ]
 
 export const Features = () => {
+      useEffect(() => {
+        Aos.init({duration:1000});
+    }, [])
     return (
         <div className="gpt3__features section__padding" id="features" >
-            <div className="gpt3__features-heading"  >
+            <div className="gpt3__features-heading" data-aos="fade-up" data-aos-easing="linear" >
                 <h1 className="gradient__text">The Future is Now and You Just Need to Realize It.</h1>
                 <p>Provided services </p>
             </div>
-            <div className="gpt3__features-container" >
+            <div className="gpt3__features-container" data-aos="fade-up" data-aos-easing="linear" >
                 {featuresData.map((item, index) => (
                     <Feature title={item.title} text={item.text} key={item.title + index} />
                 ))}
