@@ -5,6 +5,7 @@ import {blog01, blog02, blog03, blog04, blog05} from "../../components/article/i
 
 
 export const Blog = () => {
+    
     return (
         <div className="gpt3__blog section__padding" id="Posts" >
            <div className="gpt3__blog-heading" >
