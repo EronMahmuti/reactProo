@@ -1,10 +1,14 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from 'aos'
 import { Feature } from '../../components'
 import './whatGPT3.css'
 
 export const WhatGPT3 = () => {
+    useEffect(() => {
+        Aos.init({duration:1000});
+    }, [])
     return (
-        <div className="gpt3__whatgpt3 section__margin" id="about" >
+        <div className="gpt3__whatgpt3 section__margin" id="about" data-aos="zoom-in" data-aos-easing="linear" >
             <div className="gpt3__whatgpt3-heading" >
                 <h1 className="gradient__text"> My name is Eron Mahmuti </h1>
             </div>

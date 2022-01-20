@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { Feature } from '../../components'
+
 import './features.css'
 
 const featuresData = [
@@ -24,7 +25,7 @@ const featuresData = [
 export const Features = () => {
     return (
         <div className="gpt3__features section__padding" id="features" >
-            <div className="gpt3__features-heading" >
+            <div className="gpt3__features-heading"  >
                 <h1 className="gradient__text">The Future is Now and You Just Need to Realize It.</h1>
                 <p>Provided services </p>
             </div>
